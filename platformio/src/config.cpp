@@ -27,10 +27,10 @@
 //       functionality.
 //
 // ADC pin used to measure battery voltage
-const uint8_t PIN_BAT_ADC  = A2; // A0 for micro-usb firebeetle
+const uint8_t PIN_BAT_ADC  = A0; // A0 for micro-usb firebeetle
 // Pins for E-Paper Driver Board
-const uint8_t PIN_EPD_BUSY = 14; // 5 for micro-usb firebeetle
-const uint8_t PIN_EPD_CS   = 13;
+const uint8_t PIN_EPD_BUSY = 4; // 5 for micro-usb firebeetle
+const uint8_t PIN_EPD_CS   = 14;
 const uint8_t PIN_EPD_RST  = 21;
 const uint8_t PIN_EPD_DC   = 22;
 const uint8_t PIN_EPD_SCK  = 18;
